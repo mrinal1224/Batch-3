@@ -142,3 +142,11 @@ footer {
     text-align: center;
     color: white;
 }
+/* responsive CSS */
+
+
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+}
