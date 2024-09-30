@@ -8,7 +8,14 @@
 
 
 function addTwoNumbers(a ,b){
-  console.log(a+b)
+  return a+b
 }
 
-addTwoNumbers(2 , 6)
+function multiply(a,b){
+    return a*b  
+}
+
+let sum = addTwoNumbers(2 , 6)
+let product = multiply(3,4)
+
+console.log(sum+product)
