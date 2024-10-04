@@ -59,6 +59,8 @@
 // splice
 
 
+
+
 let cars = ['Ferrari' , 'BMW' , 'Nano' , 'Bentley' , 'Urus']
 
 // let splicedArr = cars.splice(3 , 2)
@@ -79,7 +81,7 @@ console.log(cars2)
 
 let mergedcars = cars1.concat(cars2)
 
-console.log(mergedcars)
+console.log(typeof mergedcars)
 
 
 
