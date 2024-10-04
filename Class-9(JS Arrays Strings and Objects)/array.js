@@ -19,32 +19,81 @@
 
 //push
 
-let cars = ['Ferrari' , 'BMW' , 'Nano']
 
 // push method
 
-cars.push('Bentley')
+// cars.push('Bentley')
 
-console.log(cars)
+// console.log(cars)
 
-// pop 
+// // pop 
 
-const removedElement = cars.pop()
-console.log(removedElement)
-console.log(cars)
+// const removedElement = cars.pop()
+// console.log(removedElement)
+// console.log(cars)
 
 
-// unshift
+// // unshift
 
-cars.unshift('Urus')
+// cars.unshift('Urus')
 
-console.log(cars)
+// console.log(cars)
 
-// shift
+// // shift
 
-cars.shift()
+// cars.shift()
 
-console.log(cars)
+// console.log(cars)
+
+//includes
+
+// let doesExist = cars.includes('ferrari')
+// console.log(doesExist) // true
+
+// // indexOF
+
+// let indexOfCar = cars.indexOf('BMW')
+// console.log(indexOfCar) // 1
+
+
+// splice
+
+
+let cars = ['Ferrari' , 'BMW' , 'Nano' , 'Bentley' , 'Urus']
+
+// let splicedArr = cars.splice(3 , 2)
+
+// console.log(splicedArr)
+
+// reverse
+
+// const reversedArr= cars.reverse()
+// console.log(reversedArr)
+
+// 
+
+let cars1 = ['Ferrari' , 'BMW' , 'Nano']
+let cars2 = ['Bentley' , 'Urus']
+console.log(cars1)
+console.log(cars2)
+
+let mergedcars = cars1.concat(cars2)
+
+console.log(mergedcars)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
