@@ -56,12 +56,24 @@
 // console.log(indexOfCar) // 1
 
 
+// slice
+
+let numbers = [23 ,45,67 ,23, 76 ,56 ,67 ,78]
+
+const slicedElemnts = numbers.slice(1 ,5)
+console.log(slicedElemnts)
+
+
+
+
+
+
 // splice
 
 
 
 
-let cars = ['Ferrari' , 'BMW' , 'Nano' , 'Bentley' , 'Urus']
+// let cars = ['Ferrari' , 'BMW' , 'Nano' , 'Bentley' , 'Urus']
 
 // let splicedArr = cars.splice(3 , 2)
 
@@ -74,14 +86,14 @@ let cars = ['Ferrari' , 'BMW' , 'Nano' , 'Bentley' , 'Urus']
 
 // 
 
-let cars1 = ['Ferrari' , 'BMW' , 'Nano']
-let cars2 = ['Bentley' , 'Urus']
-console.log(cars1)
-console.log(cars2)
+// let cars1 = ['Ferrari' , 'BMW' , 'Nano']
+// let cars2 = ['Bentley' , 'Urus']
+// console.log(cars1)
+// console.log(cars2)
 
-let mergedcars = cars1.concat(cars2)
+// let mergedcars = cars1.concat(cars2)
 
-console.log(typeof mergedcars)
+// console.log(typeof mergedcars)
 
 
 
