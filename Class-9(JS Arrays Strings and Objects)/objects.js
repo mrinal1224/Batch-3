@@ -25,6 +25,8 @@ const cap = {
         }
     },
 
+    isAvenger : true,
+
     sayHi : function(){
         console.log('Cap says Hi')
     }
@@ -43,6 +45,26 @@ console.log(cap.firstName)
 console.log(cap['lastName'])
 
 // cityName
+console.log(cap.address.city.cityName)
+
+console.log(cap.allies.push('Thor'))
+
+
+cap.sayHi()
+cap.isAvenger = false
+
+delete cap.age
+
+console.log(cap)
+
+
+
+
+
+
+
+
+
 
 
 
