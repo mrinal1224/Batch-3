@@ -1,15 +1,12 @@
 var a = 10
-var b = 15
 
-
-function add(m,n){
-    var ans = m+n
+function sqaure(m){
+    var ans = m*m
     return ans
 }
 
+var sqaure1 = sqaure(a)
+var sqaure2 =sqaure(3) 
 
-var sum1 = add(a ,b)// 25
-var sum2 = add(3,4) //7
-
-console.log(sum1)
-console.log(sum2)
+console.log(sqaure1)
+console.log(sqaure2)
