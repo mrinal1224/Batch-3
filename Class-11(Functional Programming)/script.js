@@ -1,7 +1,7 @@
 function printName(name , cb1 ,cb2){
     console.log(name)
-    cb1('chulet')
-    cb2(18)
+    cb1('chulet')// printLastName- Fn
+    cb2(18) // printAge - Fn
 }
 
 function printLastName(lastName){
