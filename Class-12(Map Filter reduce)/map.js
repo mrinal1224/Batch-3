@@ -38,5 +38,11 @@ let transcations = [1000 ,2000 ,3000 ,4000 ,5000]
 let inrToDollar = 84
 // Convert transcations in Rs comvert to dollars
 
+let dollars = transcations.map(function(val){
+    return (val/inrToDollar).toFixed(3)
+})
+
+console.log(dollars)
+
 
 
