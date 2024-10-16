@@ -37,3 +37,8 @@ console.log('Even nums from Filter ' , evenArr)
 // exercise
 let transcations = [1000 ,-2000 ,3000 ,-4000 ,5000]
 // Filter out all the deposits
+
+let deposits = transcations.filter(function(val){
+    return val >0
+})
+console.log(deposits)
